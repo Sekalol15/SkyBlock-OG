@@ -14,11 +14,7 @@ import kotlin.random.Random
 
 class Listeners : Listener {
     @EventHandler
-    fun templaterEvent(event: CreatureSpawnEvent) {
-
-        val TemplateInt = Config.getTemplateInt()
-        val TemplateBool = Config.getTemplateBool()
-        val TemplateDouble = Config.getTemplateDouble()
+    fun templateEvent(event: CreatureSpawnEvent) {
 
     }
 
